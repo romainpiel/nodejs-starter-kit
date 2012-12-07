@@ -1,7 +1,7 @@
 extends layout
 
 block append scripts
-    script(src='/javascripts/lib/require.js', data-main='javascripts/index.js')    
+    script(src='/javascripts/libs/require-jquery.js', data-main='javascripts/main')
 
 block content
     div#wrapper
@@ -14,3 +14,4 @@ block content
                     span Check out the 
                     a(href='http://github.com/romainpiel/nodejsstarterkit') Github repo
                     span .
+            div#main
